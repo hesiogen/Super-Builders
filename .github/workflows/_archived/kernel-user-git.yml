@@ -176,7 +176,7 @@ jobs:
             echo "KSU_DIR=KernelSU" >> "$GITHUB_ENV"
             ;;
           KernelSU-Next)
-            curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/stable/kernel/setup.sh" | bash -s stable
+            curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/dev/kernel/setup.sh" | bash
             echo "KSU_DIR=KernelSU-Next" >> "$GITHUB_ENV"
             ;;
           WKSU)
